@@ -1,0 +1,11 @@
+# Install only into .manatts-packages with --no-build-isolation. The direct
+# official CPU wheel keeps ManaTTS independent from the main CUDA Torch build.
+torch @ https://download.pytorch.org/whl/cpu/torch-2.6.0%2Bcpu-cp312-cp312-linux_x86_64.whl
+huggingface-hub>=0.30,<1.0
+numpy==1.26.4
+parallel-wavegan==0.6.1
+scipy==1.12.0
+librosa==0.11.0
+soundfile==0.12.1
+scikit-learn==1.5.2
+webrtcvad-wheels==2.0.14

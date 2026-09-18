@@ -1,0 +1,9 @@
+# Critical tested versions for the main GPU environment.
+chatterbox-tts==0.1.7
+torch==2.6.0
+torchaudio==2.6.0
+torchvision==0.21.0
+transformers==4.52.0
+numpy==1.26.4
+safetensors==0.5.3
+

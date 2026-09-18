@@ -1,0 +1,4 @@
+# Install this file with --no-deps. Version 0.1.7 declares transformers 5.2.0,
+# while the Persian checkpoint is deployed with the tested 4.52.0 version.
+chatterbox-tts==0.1.7
+

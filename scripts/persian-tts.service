@@ -1,0 +1,16 @@
+[Unit]
+Description=Persian Open-Weight TTS API
+After=network.target
+
+[Service]
+Type=simple
+User=mahyar
+WorkingDirectory=/home/mahyar/persian-tts-api
+EnvironmentFile=-/home/mahyar/persian-tts-api/.env
+Environment=PATH=/home/mahyar/persian-tts-api/.venv/bin:/usr/bin
+ExecStart=/home/mahyar/persian-tts-api/.venv/bin/python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 1
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

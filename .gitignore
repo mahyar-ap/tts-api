@@ -1,0 +1,47 @@
+# Generated audio and persistent job metadata
+outputs/
+
+# Downloaded model data and third-party source trees
+model_cache/
+models/
+saved_models/
+third_party/
+.cache/
+huggingface/
+
+# Python artifacts and environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+.venv-manatts/
+.manatts-packages/
+venv/
+
+# Local configuration and editor files
+.env
+.idea/
+.vscode/
+
+# Managed Python runtimes
+/python/
+
+# Logs, process files, archives, and build outputs
+*.log
+*.pid
+*.zip
+/build/
+/dist/
+.coverage
+htmlcov/
+
+# Additional model caches
+model-cache/
+huggingface-cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
